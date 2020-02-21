@@ -2,15 +2,20 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    height: 100% auto;
+    height: 1000px;
     width: 100% auto;
     background-image: url(../images/backgrounds-close-up-close-up-colors-572487.jpg);
     background-repeat: no-repeat;
     background-position: center;
     color: #777777; 
 }
-.navbar-nav {
-    float: right;
+
+.navbar {
+    margin-right: -20px;
+}
+
+#container-content {
+    background-color: #ffffff;
 }
 
 h1 {
@@ -43,24 +48,7 @@ h2 {
     font-size: 30px;
 }
 
-#main-container {
-    width: 100% auto;
-    height: 100% auto;
-}
 
-#container-content {
-    width: 100% auto;
-    height: 100% auto;
-    position: absolute;
-    right: 20%;
-    left: 20%;
-    top: 125px;
-    background-color: #ffffff;
-    margin: auto;
-    margin-bottom: 20%;
-    line-height: 30px;
-    border: #cccccc solid 2px;
-}
 
 .pic-container {
     width: 100% auto;
@@ -175,3 +163,5 @@ input[type=submit] {
     position: absolute;
     bottom: 10px;
 }
+
+

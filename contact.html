@@ -29,50 +29,57 @@
 
  
 
-    <container class="container" id="main-container">
+    
 
-     
+<container class="container" id="main-container">
 
-        <section id="container-content">
+    <div class="row justify-content-center">
 
-                <h2>Contact</h2>
+      <section class="col-xs-12 col-lg-8" id="container-content">
+
+          <h2>Contact</h2>
             
-                <form id="form">  
-                
+          <form id="form">  
+          
+          
+              <ul>
+                  <li>
+                      <label for="name">Name</label>
+                      <input type="text" name="name" id="name" placeholder="Your Name" required="required">
+                      
+                  </li>
+                  
+                  <li>
+                      <label for="email">Email</label>
+                      <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                  </li>
+              
+                  <li>
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" required="required"></textarea>
+                  </li>
+              </ul>
+          
+              <br>
+          
+              <input type="submit" name="submit">  
+              
+          </form>
+              
+      </section>
+         
+      </div>
 
-                    <ul>
-                        <li>
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name" placeholder="Your Name" required="required">
-                            
-                        </li>
-                        
-                        <li>
-                            <label for="email">Email</label>
-                            <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
-                        </li>
-                    
-                        <li>
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" required="required"></textarea>
-                        </li>
-                    </ul>
+        
     
-                    <br>
-    
-                    <input type="submit" name="submit">    
-                
-                </form> 
-        </section>
+    <footer class="page-footer font-small blue" id="footer">
 
-        <footer class="row" id="footer">
-          <div class="col-lg-12" id="footer-text">
-          &copy; Copyright
-        </div> 
-        </footer>
+      <div class="footer-copyright text-center py-3">© Copyright 2020 
+      </div>
 
+    </footer>
 
-    </container>
+  </container>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -80,3 +87,9 @@
     
 </body>
 </html>
+
+
+
+
+
+ 
