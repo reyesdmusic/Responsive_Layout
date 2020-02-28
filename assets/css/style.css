@@ -4,19 +4,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     height: 100% auto;
     width: 100% auto;
-    /* background-color: rgb(41, 0, 65); */
     background-image: linear-gradient(to bottom right, #000f36, hsl(271, 61%, 27%));
     color: #000f36; 
 }
 
 .navbar {
-    margin-right: -16px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #container-content {
+    margin-top: 40px;
     background-color: #ffffff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 200px;
     padding-bottom: 10px;
 }
@@ -25,6 +23,7 @@ h1 {
     color: #ffffff;
     background-image: linear-gradient(to bottom right, #000f36, hsl(271, 61%, 27%));
     padding: 26px;
+    border-radius: 10px;
     text-align: center;
     font-family: 'Ultra';
     font-weight: lighter;
@@ -148,7 +147,6 @@ input[type=submit] {
     font-size: 14px;
     font-weight: lighter;
     margin: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #footer-text {
